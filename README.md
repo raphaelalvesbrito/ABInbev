@@ -18,10 +18,12 @@ O pipeline é dividido em várias camadas e usa ferramentas como Airflow, PySpar
 **Requisitos:**
 
 Python 3.9
+
 Docker
+
 Apache Airflow
+
 PySpark
-Iniciar o Pipeline:
 
 **Containerização:**
 
@@ -39,5 +41,6 @@ docker run -d -p 8080:8080 brewery-pipeline
 
 **/gold_layer_breweries/:** Dados agregados.
 
-Contribuição:
+**Contribuição:**
+
 Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades.
